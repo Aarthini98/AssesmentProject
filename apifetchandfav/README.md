@@ -1,3 +1,10 @@
+npm init
+npm install
+npm install --save react-router-dom
+npm install axios
+npm start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
