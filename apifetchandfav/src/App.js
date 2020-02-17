@@ -20,7 +20,15 @@ export default class App extends Component {
         favorites: [...this.state.favorites, favorite]
       });
     }
+    else
+    {
+      this.setState({ favorites: this.state.favorites.filter(favorite => favorites.id !== favorite)});
+    }
   };
+
+
+  
+
 
   getList = async () => {
     const api =
